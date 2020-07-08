@@ -1,0 +1,172 @@
+header {
+  padding: 35px 20px 35px 20px;
+background-color:  #0f0e46;    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+
+  }  .Category {
+    font-size: 16px;
+    color: #455A64;
+    height: inherit;
+    flex: 2;
+    display: flex;
+    
+    justify-content: center;
+  }
+  .Category select {
+    font-size: 16px;
+    color: rgb(10, 31, 41);
+    border: 0;
+    outline:0px;
+  }
+  .Category option {
+  
+    color:  rgb(10, 31, 41);
+    border: 50;
+  }
+  .Search {
+    font-size: 16px;
+    height: inherit;
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .iconSearch{
+    margin: 5px;
+    color: rgb(10, 31, 41);
+  }
+  .Search input {
+    background-color: inherit;
+    color: rgb(10, 31, 41);
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 0.5px solid #B0BEC5;
+    flex: 2;
+    width: 50%;
+    font-size: 16px;
+    margin-right: 5px;
+    -webkit-transition: margin 0.4s ease-in-out;
+    transition: margin 0.4s ease-in-out;
+  }
+  .Search input:focus {  
+    margin-right: 40px;
+  }
+  .Search input::-webkit-input-placeholder {
+    color:rgb(10, 31, 41);
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+  }
+  .Search input:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  .Title {
+    flex-direction: row;
+
+    height: inherit;
+    flex: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
+color: rgba(11, 173, 248, 0.493); 
+margin-left: 22%;
+}
+
+  
+.AltHeader
+{
+  height: inherit;
+  flex: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+color: #eaeafc;  
+
+}
+
+.kitapkayit {
+  display: inline-block;
+  border-radius: 55px;
+  background-color:#e0dffa5b;
+
+  border: none;
+  color: #ffffff  ;
+  text-align: center;
+  font-size: 15px;
+  padding: 16px;
+  width: 110px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  padding-right: 25px;
+
+}
+
+
+.kitapkayit span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.kitapkayit span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.kitapkayit:hover span {
+  padding-right: 25px;
+}
+
+.kitapkayit:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.tumkitaplar
+{  display: inline-block;
+  border-radius: 55px;
+  background-color:#e0dffa5b;
+  border: none;
+  color: #ffffff  ;
+  text-align: center;
+  font-size: 15px;
+  padding: 16px;
+  width: 110px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  padding-right: 25px;}
+  .tumkitaplar span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .tumkitaplar span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .tumkitaplar:hover span {
+    padding-right: 25px;
+  }
+  
+  .tumkitaplar:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

@@ -1,0 +1,101 @@
+
+.KayanKisim {
+    background-color: rgba(250, 250, 250, 0.596);
+    height: 40vh;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px 40px 20px;
+    color: #333;
+    margin-right: 0ü0px
+  }
+  
+    .KayanKisim .slick-arrow
+    {
+      background-color: #0f0e466e;
+ 
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+   
+      
+      }
+      .KayanKisim .slick-arrow::before
+{
+  background-color: #0f0e466e;
+  height: 30px;
+    width: 30px;
+    border-radius: 15px;
+
+    
+    }
+
+
+.Ozet {
+    color: #0f0e46;
+    font-size: 0.8em;
+    margin: 10px;
+    text-align: justify;  
+  }
+  .KitabaGit button {
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #FFFFFF;
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .KitapTanitim {
+    height: 250px;
+    width: 220px;
+    position: absolute;
+    right: 0;
+  }
+  .KitapTanitim h1 {
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    padding: 5px;
+    height: 35px;
+  }
+  p.Author {
+    margin-top: 0;
+    color: #0f0e46;
+    font-size: 0.7em;
+    margin-left: 10px;
+  }
+  
+  .KitapFoto {
+    height: 270px;
+    width: auto;
+    max-width: 180px;
+    position: absolute;
+    bottom: -30px;
+    left: 10px;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 8px 0 rgba(0,0,0,0.4);
+         -moz-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+              box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  }
+  .KitapFoto img {
+    min-height: 270px;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    align-self: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+         -moz-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+              box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  }
+  .KartKismi {
+    height: 250px;
+    width: 420px;
+    margin: 0 20px 30px 20px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
